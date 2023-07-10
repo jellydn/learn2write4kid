@@ -2655,15 +2655,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-runtime@npm:2.1.6":
-  version: 2.1.6
-  resolution: "@expo/metro-runtime@npm:2.1.6"
+"@expo/metro-runtime@npm:2.2.3":
+  version: 2.2.3
+  resolution: "@expo/metro-runtime@npm:2.2.3"
   dependencies:
     "@bacons/react-views": ^1.1.3
     qs: ^6.10.3
   peerDependencies:
     react-native: "*"
-  checksum: 3a679adb6d18201cc8df17d9e3a761f79f16c609e5adf1e4f1512038f88303db4583d9b6440d387dec4727fdb5a2fb947bb4afb08d74c6b05436631cf08423d3
+  checksum: 0746ab892d6acb7465ad29cf0d8b135cfddab5022d7921d56be1b07803305bda141b4d62f18ab6c8477b77ac9bde47a30e12f44c375bc42474dba4c72d70efdc
   languageName: node
   linkType: hard
 
@@ -9689,7 +9689,7 @@ __metadata:
     expo-font: 11.4.0
     expo-linear-gradient: 12.3.0
     expo-linking: 4.1.0
-    expo-router: 1.7.7
+    expo-router: 2.0.0
     expo-splash-screen: 0.20.4
     expo-status-bar: 1.6.0
     expo-updates: 0.18.8
@@ -9866,18 +9866,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-head@npm:0.0.8":
-  version: 0.0.8
-  resolution: "expo-head@npm:0.0.8"
+"expo-head@npm:0.0.11":
+  version: 0.0.11
+  resolution: "expo-head@npm:0.0.11"
   dependencies:
     react-helmet-async: ^1.3.0
   peerDependencies:
     expo: "*"
     expo-constants: "*"
-    expo-router: "*"
     react: "*"
     react-native: "*"
-  checksum: 3d0e38e128c8f45b69d76c8982f435cb70927ac9fd29b8fa6fe8864de41290098370391abd7bca5ad8be0b8fcbf14862187ccf6cf9f346f3e022c657d16c2a5d
+  checksum: 243f961d95d40996f216f2618336dd3c3f49da798e6ccd789a0484fdab0c018a6c9ec9d8e6acd4274e50572682368406effc9409d613c652732cb312f2e34187
   languageName: node
   linkType: hard
 
@@ -9953,29 +9952,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-router@npm:1.7.7":
-  version: 1.7.7
-  resolution: "expo-router@npm:1.7.7"
+"expo-router@npm:2.0.0":
+  version: 2.0.0
+  resolution: "expo-router@npm:2.0.0"
   dependencies:
     "@bacons/react-views": ^1.1.3
-    "@expo/metro-runtime": 2.1.6
+    "@expo/metro-runtime": 2.2.3
     "@radix-ui/react-slot": 1.0.1
     "@react-navigation/bottom-tabs": ~6.5.7
     "@react-navigation/native": ~6.1.6
     "@react-navigation/native-stack": ~6.9.12
-    expo-head: 0.0.8
-    expo-splash-screen: "*"
+    expo-head: 0.0.11
+    expo-splash-screen: ~0.20.2
     query-string: 7.1.3
     react-helmet-async: ^1.3.0
     schema-utils: ^4.0.1
     url: ^0.11.0
   peerDependencies:
     "@react-navigation/drawer": ^6.5.8
-    expo: ^48.0.0
+    expo: ^49.0.0-alpha.6
     expo-constants: "*"
     expo-linking: "*"
     expo-status-bar: "*"
-    metro: ~0.76.0
+    metro: ~0.76.7
     react-native-gesture-handler: "*"
     react-native-reanimated: "*"
     react-native-safe-area-context: "*"
@@ -9987,11 +9986,11 @@ __metadata:
       optional: true
     react-native-reanimated:
       optional: true
-  checksum: e9abae874ae25ffd5725c664bae4800f7ccbdcf434b446483f73d9ee79c2da3a6de84c58549af4144f1ed0c69b50a69f88cf13c51e95b0fedc124b7b0dff0a3c
+  checksum: 1f4bda71ac8e328cad8f7c22c98c1242f2c5dc052be23741604fc3dbcf57b02518ad2fe31720e964c7fbf101ee05e2df0650790231dbab767e47e2f85c61aba6
   languageName: node
   linkType: hard
 
-"expo-splash-screen@npm:*, expo-splash-screen@npm:0.20.4":
+"expo-splash-screen@npm:0.20.4, expo-splash-screen@npm:~0.20.2":
   version: 0.20.4
   resolution: "expo-splash-screen@npm:0.20.4"
   dependencies:
